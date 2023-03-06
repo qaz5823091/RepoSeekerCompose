@@ -57,7 +57,6 @@ class MainActivity : ComponentActivity() {
 
         lateinit var selectedRepo: GithubRepository
 
-
         Column() {
             SearchBar(textState = textState)
             RepositoryList(
